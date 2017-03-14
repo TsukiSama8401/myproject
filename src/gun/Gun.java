@@ -5,8 +5,8 @@ public class Gun {
 	String type;
 	int rds;
 	int range;
-	int leight;
-	public Gun(String name,String type,int rds,int range,int leight){
+	double leight;
+	public Gun(String name,String type,int rds,int range,double leight){
 		this.name = name;
 		this.type = type;
 		this.rds = rds;
