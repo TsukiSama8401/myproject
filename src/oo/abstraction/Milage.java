@@ -6,7 +6,7 @@ public class Milage {
 		Car c = new Car("XX","name",2000);
 		c.setMilage(25000);
 		float current = c.addMilage(80);
-		System.out.println("¥Ø«e¨½µ{¼Æ:" + current);
+		System.out.println("é‡Œç¨‹æ•¸ç‚º:" + current);
 
 	}
 

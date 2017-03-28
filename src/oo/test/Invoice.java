@@ -9,7 +9,7 @@ public class Invoice {
 //		int m ;
 //		Scanner scanner = new Scanner(System.in);
 //		m = scanner.nextInt();
-//		System.out.println("½Ð¿é¤Jµo²¼¸¹½X:" + m);
+//		System.out.println("è«‹è¼¸å…¥æ‚¨çš„ç™¼ç¥¨è™Ÿç¢¼:" + m);
 		
 		String s = "331";
 		//
