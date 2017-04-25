@@ -8,10 +8,12 @@ public class Car {
 		String type;
 		float milage;
 		int status;
+		
 		public Car (String brand,String name,int cc){
 			this.brand = brand;
 			this.cc = cc;
 			this.name = name;
+			System.out.println("ha!ha!");
 			}
 
 		public void setMilage(int m){
