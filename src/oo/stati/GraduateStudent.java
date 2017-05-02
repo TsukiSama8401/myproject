@@ -7,5 +7,8 @@ public class GraduateStudent extends Student{
 		this.math = math;
 		this.chinese = chinese;
 	}
+	public void print(){
+		System.out.println(getScore(english) + "\t" + getScore(math) + "\t" + getScore(chinese) + "\t" + getScore(thesis));
+	}
 
 }
