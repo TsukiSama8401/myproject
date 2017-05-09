@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class Tester {
 	
 	public static void main(String[]args){
+		
+		Student stu = new Student(99,89,66);
+		System.out.println(stu);
+		
 		System.out.println(Student.pass);
 		Student stu1 = new Student(79,84,53);
 		Student stu2 = new Student(58,66,29);
@@ -24,10 +28,10 @@ public class Tester {
 		list.add(new Student(88,99,85));
 		list.add(new GraduateStudent(66,87,66));
 		list.add(new GraduateStudent(78,89,66));
-		for(int i = 0 ; i < list.size() ; i++){
-			Student stu = list.get(i);
-			stu.print();
-		}
+//		for(int i = 0 ; i < list.size() ; i++){
+//			Student stu = list.get(i);
+//			stu.print();
+//		}
 	}
 
 }

@@ -6,10 +6,13 @@ public class GraduateStudent extends Student{
 		this.english = english;
 		this.math = math;
 		this.chinese = chinese;
+		
 	}
 	@Override
 	public void print(){
 		System.out.println(getScore(english) + "\t" + getScore(math) + "\t" + getScore(chinese) + "\t" + getScore(thesis));
 	}
+	
+	
 
 }

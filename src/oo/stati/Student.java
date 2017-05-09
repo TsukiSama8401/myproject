@@ -28,5 +28,10 @@ public class Student {
 			return String.valueOf(score);
 		}
 	}
+	@Override
+	public String toString(){
+		return 
+				"eng:" + english + "\n" + "chinese:" + chinese + "\n" + "math:" + math;
+	}
 
 }
