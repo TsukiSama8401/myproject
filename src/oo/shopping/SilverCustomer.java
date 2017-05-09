@@ -7,18 +7,18 @@ public class SilverCustomer extends Customer {
 	}
 	
 	
-	public SilverCustomer(float price){
+	public SilverCustomer(int price){
 		this.price = price;
 	}
 	
-	float discount = 0.9f;
+	float discount;
 	
 	public void setDiscount(float d){
 		discount = d;
 	}
 	
 	public float getDiscount(float d){
-		return price = price * d;
+		return discount = price * d;
 	}
 	
 	public void print(){

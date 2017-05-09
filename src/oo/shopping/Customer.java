@@ -2,13 +2,13 @@ package oo.shopping;
 
 public class Customer {
 	
-	float price;
+	int price;
 	
 	public Customer(){
 		
 	}
 	
-	public Customer (float price){
+	public Customer (int price){
 		super();
 		this.price = price;
 	}
