@@ -2,21 +2,10 @@ package oo.shopping;
 
 public class GoldenCustomer extends SilverCustomer {
 	
-	float back;
-	
-	public GoldenCustomer(int price){
-		this.price = price;
+	public void Back(int price){
+		this.back = price * 5 / 100;
+		System.out.println("回饋金:" + back);
 	}
-	
-	public void setBack(float b){
-		back = b;
-	}
-	
-	public float getBack(float b){
-		return back = price * b;
-	}
-	public void print(){
-		System.out.println("總金額:" + price + "\t" + "還原金:" + back);
-	}
+
 
 }
