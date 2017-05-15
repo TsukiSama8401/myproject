@@ -2,19 +2,13 @@ package oo.shopping;
 
 public class Customer {
 	
+	int pay;
 	int price;
+	int back;
 	
-	public Customer(){
-		
-	}
-	
-	public Customer (int price){
-		super();
-		this.price = price;
-	}
-	
-	public void print(){
-		System.out.println("總金額:" + price);
+	public void Customer(int price){
+		this.pay = price;
+		System.out.println("應付金額:" + pay);
 	}
 
 }
