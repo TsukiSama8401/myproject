@@ -8,7 +8,7 @@ public class Customer {
 	
 	public void Customer(int price){
 		this.pay = price;
-		System.out.println("應付金額:" + pay);
+		System.out.println(pay + "\t");
 	}
 
 }
