@@ -2,13 +2,15 @@ package oo.shopping;
 
 public class GoldenCustomer extends SilverCustomer {
 	
-	public void GoldenCustomer(int price){
+	public GoldenCustomer(int price){
+		super(price);
 		this.pay = price * 9 / 10;
 		this.back = price * 5 / 100;
-		System.out.println(pay + "\t" + back);
 	}
 	
-
+	public void print(){
+		System.out.println(pay + "\t" + back);
+	}
 
 
 }

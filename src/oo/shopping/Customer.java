@@ -6,8 +6,13 @@ public class Customer {
 	int price;
 	int back;
 	
-	public void Customer(int price){
+	public Customer(int price){
+		super();
 		this.pay = price;
+		
+	}
+	
+	public void print(){
 		System.out.println(pay + "\t");
 	}
 
